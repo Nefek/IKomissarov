@@ -57,4 +57,4 @@ else:
     if a1 == 2 or a2 == 2 or a3 == 2 or a4 == 2 or a5 == 2 or a6 == 2:
         print("В числе есть 2")
     else:
-        print("В числе нет 2")
+        print("В числе нет 2") 
