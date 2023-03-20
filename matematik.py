@@ -8,6 +8,8 @@ def factorial(n):
 
 pi = 3.141592653589793
 
+#Вычисление sin и cos через ряд Тейлора
+
 def sin(x):
     i, lasts, s, fact, num, sign = 1, 0, x, 1, x, 1
     while s != lasts:
