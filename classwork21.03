@@ -1,0 +1,67 @@
+#___№17____
+a = 10
+total = 0
+while a <= 100:
+    a_10 = a * 0.1
+    a += a_10
+    total += 1
+print(total)
+
+
+# № __1__
+a = int(input())
+ 
+b = a % 10
+c = a // 10
+if a > 9 and a < 100:
+    if b == 0:
+        print(c)
+    else:
+        print(b, c, sep='')
+
+else:
+    print('☹ ☹ ☹ ☹ ☹ ')
+
+
+#№__2__
+a, b, c = [float(input ()), float(input ())], [float(input ()), float(input ())], [float(input ( )), float(input ( ))]
+Vab = [a[0]- b[0], a[1]-b[1]]
+Vac = [a[0]-c[0], a[1]-c[1]]
+Vbc = [b[0]-c[0], b[1]-c[1]]
+ab = (Vab[0] ** 2 + Vab[1] ** 2)**0.5
+ac = (Vac[0] ** 2 + Vac[1] ** 2)**0.5
+bc = (Vbc[0] ** 2 + Vbc[1] ** 2)**0.5
+
+P = ab+ac+bc
+d = P/2
+S =(d*(d-ab)*(d-ac)*(d-bc))**0.5
+print("P =", P , "\n", 'S = ', S)
+
+#№ __3__
+a = int(input())
+b = a // 10
+c = a % 10
+d = b % 10
+print('Десятков =', d, 'единиц =', c)
+
+#__№4___
+a, b, c = int(input("сантиметры: ")), int(input("дециметры: ")), int(input("миллиметры: "))
+print(f"метров в см: {a / 100} метров в дм: {b / 10} метров в мм: {c / 1000}")
+
+#__№5__
+x, k = int(input("Введите значение х: ")), int(input("Введите значение k: "))
+if k < x:
+    print(f"y = {k * x}")
+elif k == x:
+    print(f"y = {k / x}")
+else:
+    print(f"y = {k + x}")
+
+
+
+
+
+
+
+
+
