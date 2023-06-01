@@ -4,5 +4,6 @@ def season(a):
     elif a in range(6, 9): return "Summer"
     elif a in range(9, 12): return "Autumn"
     else: return "not month number"
+    
 print(season(int(input("Enter the month number: "))))
     
